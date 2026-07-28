@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"
+  VITE_SUPABASE_URL = "https://yegiyqcaprexbrehuste.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InllZ2l5cWNhcHJleGJyZWh1c3RlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMxMDk4OTksImV4cCI6MjA5ODY4NTg5OX0.Ic-TU_Ai79ifRTwmlAyVrVOsQdvMFGGFAbohtt_7wHk"
